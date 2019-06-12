@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4EC66C22A6551E00E55171 /* NewCanvasDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC66B22A6551E00E55171 /* NewCanvasDialog.swift */; };
+		4B4EC66E22A6578D00E55171 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC66D22A6578D00E55171 /* WindowController.swift */; };
+		4B4EC67222A7854000E55171 /* SelectColorPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC67122A7854000E55171 /* SelectColorPanel.swift */; };
+		4B4EC67422A7C19800E55171 /* OnlyIntegerFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC67322A7C19800E55171 /* OnlyIntegerFormatter.swift */; };
+		4B4EC67622A8AEF600E55171 /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC67522A8AEF600E55171 /* Executor.swift */; };
+		4B4EC67822A93FEC00E55171 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC67722A93FEC00E55171 /* ImageViewController.swift */; };
+		4B4EC67C22A9759F00E55171 /* cgdraw in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EC67B22A9759F00E55171 /* cgdraw */; settings = {ASSET_TAGS = (cmd, ); }; };
+		4B4EC67E22A978C200E55171 /* ObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC67D22A978C200E55171 /* ObjectViewController.swift */; };
+		4B4EC68022AA457600E55171 /* PaintableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC67F22AA457600E55171 /* PaintableImageView.swift */; };
+		4B4EC68222AA4BD000E55171 /* AutoDeselectTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC68122AA4BD000E55171 /* AutoDeselectTableView.swift */; };
+		4B84CE5D22AAC5990045734C /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B84CE5C22AAC5990045734C /* BarViewController.swift */; };
+		4BAF1339229F887700D0066A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF1338229F887700D0066A /* AppDelegate.swift */; };
+		4BAF133B229F887700D0066A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF133A229F887700D0066A /* ViewController.swift */; };
+		4BAF133D229F887700D0066A /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF133C229F887700D0066A /* Document.swift */; };
+		4BAF133F229F887800D0066A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAF133E229F887800D0066A /* Assets.xcassets */; };
+		4BAF1342229F887800D0066A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAF1340229F887800D0066A /* Main.storyboard */; };
+		4BAF134C22A0F80500D0066A /* LineNumberGutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF134B22A0F80500D0066A /* LineNumberGutter.swift */; };
+		4BAF134E22A0F83900D0066A /* LineNumberTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF134D22A0F83900D0066A /* LineNumberTextView.swift */; };
+		4BC8042B22AB9E0F0081128B /* CGDrawFonts in Resources */ = {isa = PBXBuildFile; fileRef = 4BC8042A22AB9E0F0081128B /* CGDrawFonts */; settings = {ASSET_TAGS = (cmd, ); }; };
+		4BE0D33522A0F8B1005C10C1 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0D33422A0F8B1005C10C1 /* Content.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B4EC66B22A6551E00E55171 /* NewCanvasDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCanvasDialog.swift; sourceTree = "<group>"; };
+		4B4EC66D22A6578D00E55171 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		4B4EC67122A7854000E55171 /* SelectColorPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectColorPanel.swift; sourceTree = "<group>"; };
+		4B4EC67322A7C19800E55171 /* OnlyIntegerFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyIntegerFormatter.swift; sourceTree = "<group>"; };
+		4B4EC67522A8AEF600E55171 /* Executor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executor.swift; sourceTree = "<group>"; };
+		4B4EC67722A93FEC00E55171 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		4B4EC67B22A9759F00E55171 /* cgdraw */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cgdraw; sourceTree = "<group>"; };
+		4B4EC67D22A978C200E55171 /* ObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectViewController.swift; sourceTree = "<group>"; };
+		4B4EC67F22AA457600E55171 /* PaintableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintableImageView.swift; sourceTree = "<group>"; };
+		4B4EC68122AA4BD000E55171 /* AutoDeselectTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoDeselectTableView.swift; sourceTree = "<group>"; };
+		4B84CE5C22AAC5990045734C /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
+		4BAF1335229F887700D0066A /* CGDraw GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CGDraw GUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BAF1338229F887700D0066A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BAF133A229F887700D0066A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BAF133C229F887700D0066A /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		4BAF133E229F887800D0066A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BAF1341229F887800D0066A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BAF1343229F887800D0066A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BAF1344229F887800D0066A /* CGDraw_GUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CGDraw_GUI.entitlements; sourceTree = "<group>"; };
+		4BAF134B22A0F80500D0066A /* LineNumberGutter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineNumberGutter.swift; sourceTree = "<group>"; };
+		4BAF134D22A0F83900D0066A /* LineNumberTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineNumberTextView.swift; sourceTree = "<group>"; };
+		4BC8042A22AB9E0F0081128B /* CGDrawFonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CGDrawFonts; sourceTree = "<group>"; };
+		4BDE899722A0FBEC0003251D /* CGDraw GUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CGDraw GUI.entitlements"; sourceTree = "<group>"; };
+		4BE0D33422A0F8B1005C10C1 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BAF1332229F887700D0066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BAF132C229F887700D0066A = {
+			isa = PBXGroup;
+			children = (
+				4BAF1337229F887700D0066A /* CGDraw GUI */,
+				4BAF1336229F887700D0066A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BAF1336229F887700D0066A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BAF1335229F887700D0066A /* CGDraw GUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BAF1337229F887700D0066A /* CGDraw GUI */ = {
+			isa = PBXGroup;
+			children = (
+				4BC8042A22AB9E0F0081128B /* CGDrawFonts */,
+				4B4EC67B22A9759F00E55171 /* cgdraw */,
+				4BDE899722A0FBEC0003251D /* CGDraw GUI.entitlements */,
+				4BAF134A22A0F7F300D0066A /* LineNumberTextView */,
+				4BAF1338229F887700D0066A /* AppDelegate.swift */,
+				4BAF133A229F887700D0066A /* ViewController.swift */,
+				4BAF133C229F887700D0066A /* Document.swift */,
+				4BAF133E229F887800D0066A /* Assets.xcassets */,
+				4BAF1340229F887800D0066A /* Main.storyboard */,
+				4BAF1343229F887800D0066A /* Info.plist */,
+				4BAF1344229F887800D0066A /* CGDraw_GUI.entitlements */,
+				4BE0D33422A0F8B1005C10C1 /* Content.swift */,
+				4B4EC66B22A6551E00E55171 /* NewCanvasDialog.swift */,
+				4B4EC66D22A6578D00E55171 /* WindowController.swift */,
+				4B4EC67122A7854000E55171 /* SelectColorPanel.swift */,
+				4B4EC67322A7C19800E55171 /* OnlyIntegerFormatter.swift */,
+				4B4EC67522A8AEF600E55171 /* Executor.swift */,
+				4B4EC67722A93FEC00E55171 /* ImageViewController.swift */,
+				4B4EC67D22A978C200E55171 /* ObjectViewController.swift */,
+				4B4EC67F22AA457600E55171 /* PaintableImageView.swift */,
+				4B4EC68122AA4BD000E55171 /* AutoDeselectTableView.swift */,
+				4B84CE5C22AAC5990045734C /* BarViewController.swift */,
+			);
+			path = "CGDraw GUI";
+			sourceTree = "<group>";
+		};
+		4BAF134A22A0F7F300D0066A /* LineNumberTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4BAF134B22A0F80500D0066A /* LineNumberGutter.swift */,
+				4BAF134D22A0F83900D0066A /* LineNumberTextView.swift */,
+			);
+			path = LineNumberTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BAF1334229F887700D0066A /* CGDraw GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BAF1347229F887800D0066A /* Build configuration list for PBXNativeTarget "CGDraw GUI" */;
+			buildPhases = (
+				4BAF1331229F887700D0066A /* Sources */,
+				4BAF1332229F887700D0066A /* Frameworks */,
+				4BAF1333229F887700D0066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CGDraw GUI";
+			productName = "CGDraw GUI";
+			productReference = 4BAF1335229F887700D0066A /* CGDraw GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BAF132D229F887700D0066A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					cmd,
+				);
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = NSKernel;
+				TargetAttributes = {
+					4BAF1334229F887700D0066A = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4BAF1330229F887700D0066A /* Build configuration list for PBXProject "CGDraw GUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BAF132C229F887700D0066A;
+			productRefGroup = 4BAF1336229F887700D0066A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BAF1334229F887700D0066A /* CGDraw GUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BAF1333229F887700D0066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BAF133F229F887800D0066A /* Assets.xcassets in Resources */,
+				4BC8042B22AB9E0F0081128B /* CGDrawFonts in Resources */,
+				4BAF1342229F887800D0066A /* Main.storyboard in Resources */,
+				4B4EC67C22A9759F00E55171 /* cgdraw in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BAF1331229F887700D0066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BAF133B229F887700D0066A /* ViewController.swift in Sources */,
+				4B4EC67622A8AEF600E55171 /* Executor.swift in Sources */,
+				4B4EC67222A7854000E55171 /* SelectColorPanel.swift in Sources */,
+				4BE0D33522A0F8B1005C10C1 /* Content.swift in Sources */,
+				4BAF134C22A0F80500D0066A /* LineNumberGutter.swift in Sources */,
+				4B4EC66C22A6551E00E55171 /* NewCanvasDialog.swift in Sources */,
+				4B84CE5D22AAC5990045734C /* BarViewController.swift in Sources */,
+				4BAF134E22A0F83900D0066A /* LineNumberTextView.swift in Sources */,
+				4B4EC67E22A978C200E55171 /* ObjectViewController.swift in Sources */,
+				4B4EC66E22A6578D00E55171 /* WindowController.swift in Sources */,
+				4B4EC67422A7C19800E55171 /* OnlyIntegerFormatter.swift in Sources */,
+				4BAF1339229F887700D0066A /* AppDelegate.swift in Sources */,
+				4B4EC67822A93FEC00E55171 /* ImageViewController.swift in Sources */,
+				4BAF133D229F887700D0066A /* Document.swift in Sources */,
+				4B4EC68222AA4BD000E55171 /* AutoDeselectTableView.swift in Sources */,
+				4B4EC68022AA457600E55171 /* PaintableImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BAF1340229F887800D0066A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BAF1341229F887800D0066A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BAF1345229F887800D0066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BAF1346229F887800D0066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4BAF1348229F887800D0066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L9H75LEXJQ;
+				INFOPLIST_FILE = "CGDraw GUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NSKernel.CGDraw-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4BAF1349229F887800D0066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L9H75LEXJQ;
+				INFOPLIST_FILE = "CGDraw GUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NSKernel.CGDraw-GUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BAF1330229F887700D0066A /* Build configuration list for PBXProject "CGDraw GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BAF1345229F887800D0066A /* Debug */,
+				4BAF1346229F887800D0066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BAF1347229F887800D0066A /* Build configuration list for PBXNativeTarget "CGDraw GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BAF1348229F887800D0066A /* Debug */,
+				4BAF1349229F887800D0066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BAF132D229F887700D0066A /* Project object */;
+}
